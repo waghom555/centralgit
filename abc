@@ -1,0 +1,17 @@
+ngaporgit
+[root@ip-172-31-24-174 singaporgit]# cat>abc
+
+ngaporgit
+[root@ip-172-31-24-174 singaporgit]# cat>abc
+
+
+			"Sid": "PublicReadGetObject",
+			"Effect": "Allow",
+			"Principal": "*",
+			"Action": [
+				"s3:GetObject"
+			],
+			"Resource": [
+				"arn:aws:s3:::BUCKET_NAME/*"
+			]
+		}

@@ -17,3 +17,7 @@ def lambda_handler(event, context):
         )
     
     return items["Items"]
+
+
+
+tetste jcbnzmn v
